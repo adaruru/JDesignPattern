@@ -1,6 +1,5 @@
 package my.lab;
-import my.util.A;
-import my.util.B;
+import my.util.*;
 
 public class Hello {
 	public static void main(String[] args) {
