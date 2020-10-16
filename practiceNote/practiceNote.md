@@ -184,7 +184,7 @@ http://mm.tlrc.mcu.edu.tw/courses/fhwang/accredit/JAVA/java3.html
 
 ![image-20200928210930461](.attachments/image-20200928210930461.png)
 
-20201005
+### 20201005
 
 #### java exception
 
@@ -222,6 +222,45 @@ jar 打包my file to hello.jar
 java -cp -jar hello.jar
 
 提示 jar -e (entry point)
+
+### 20201012
+
+#### 答案
+
+entry point:
+cd 專案路徑 D:\Git\github\JDesignPattern
+jar cvfe hello.jar my.lab.Hello my (壓縮了my檔)
+此時 java -cp .:hello-lib.jar -jar hello.jar 可以執行
+
+#### 資料傳遞
+
+1. 資料附值(小範圍賦給大範圍) 透過 等號
+
+2. 方法帶入參數 參數回傳型別 透過 參數
+
+3. 透過 return
+
+#### 數字強轉
+數字+L、l 轉 long
+數字+D、d 轉 double
+數字+F、f 轉 float
+
+小-大 明確的轉型 explicit
+不明確的 umexplicit
+
+#### 明確轉型
+1. 為了讓來源的資料能落在目的型別的容許範圍
+
+2. 提供了檢查點
+
+   
+
+
+
+
+
+
+
 
 
 
